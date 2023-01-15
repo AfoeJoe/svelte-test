@@ -31,5 +31,3 @@ jobs:
         run: npm run build
         env:
 
-      - name: Test
-        run:
