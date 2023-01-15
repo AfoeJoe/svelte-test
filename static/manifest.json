@@ -1,0 +1,33 @@
+{
+    "short_name": "svelte-pwa",
+    "name": "svelte-test-pwa",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "logo_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#275c88",
+    "shortcuts": [
+      {
+        "name": "Svelte PWA",
+        "short_name": "SvelteSN",
+        "description": "Svelte pwa today for your business",
+        "url": "/svelte?source=pwa",
+        "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Svelte PWA2",
+        "short_name": "Svelte PWASN2",
+        "description": "Svelte pwa information for tomorrow",
+        "url": "/svelte2?source=pwa",
+        "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Lofi to lofi beats, while using the scratchpad to list down tasks and thoughts"
+}
