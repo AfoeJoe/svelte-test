@@ -17,5 +17,5 @@
 		{post.frontMatter.excerpt}
 	</p>
 
-	<a href={'/' + post.slug} class="btn">Read more about the post</a>
+	<a href={'./' + post.slug} class="btn">Read more about the post</a>
 </div>
